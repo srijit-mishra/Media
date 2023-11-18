@@ -1,5 +1,14 @@
 {
-  "users": [{ "id": 1, "name": "Myra" }],
+  "users": [
+    {
+      "name": "Geneva Keebler",
+      "id": 1
+    },
+    {
+      "name": "Mack Runolfsson",
+      "id": 2
+    }
+  ],
   "albums": [],
   "photos": []
 }
