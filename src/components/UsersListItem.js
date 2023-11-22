@@ -1,4 +1,4 @@
-import { GoAlert } from "react-icons/go";
+import { FaTrash } from "react-icons/fa";
 import { useThunk } from "../hooks/use-thunk";
 import { removeUser } from "../store";
 import AlbumsList from "./AlbumsList";
@@ -15,7 +15,7 @@ function UsersListItem({ user }) {
   const header = (
     <>
       <Button className="mr-3" loading={isLoading} onClick={handleClick}>
-        <GoAlert />
+        <FaTrash />
       </Button>
       {error && <div>Error deleting user.</div>}
       {user.name}

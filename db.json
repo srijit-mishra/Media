@@ -1,14 +1,40 @@
 {
   "users": [
     {
-      "name": "Geneva Keebler",
+      "name": "Mack Runolfsson",
       "id": 1
     },
     {
-      "name": "Mack Runolfsson",
+      "name": "Jessie King",
       "id": 2
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 1,
+      "title": "Album 1",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Album 2",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Unbranded Wooden Gloves",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "Modern Steel Salad",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Tasty Concrete Pizza",
+      "id": 5
+    }
+  ],
   "photos": []
 }
